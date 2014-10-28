@@ -1,0 +1,141 @@
+<doctype! HTML>
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*your CSS starts here */
+
+#header {
+	color: white;
+	background-color: black;
+	font-family: "Helvetica";
+	font-size: 20px;
+	padding-left: 5px;
+	border-top-left-radius: 10px;
+}
+
+.highlight {
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 100%;
+	background-color: white;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+.highlight p {
+	color: black;
+}
+
+
+.students {
+	border: 1px solid black;
+	border-radius: 100%;
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+}
+
+p {
+	font-family: "Helvetica";
+	font-size: 15px;
+	text-align: center;
+	padding-top: 25px;
+	font-weight: bold;
+	color: white;
+}
+
+.table_top {
+	text-align: center;
+}
+
+.table_end_right {
+	margin-left: 350px;
+}
+
+.table_bottom {
+	text-align: center;
+}
+
+.table_end_left {
+	position: absolute;
+	left: 825px;
+	top: 175px;
+}
+
+#randomizer {
+	font-size: 15px;
+    width: 100px;
+    height: 40px;   
+    background: black;
+    border: 1px red;
+    color: white;   
+    font-family: "Helvetica";
+    border-radius: 5px;
+    position: absolute;
+    top: 425px;
+    left: 590px;
+    font-weight: bold;
+}
+
+#reset {
+	font-size: 12px;
+	width: 75px;
+    height: 30px;   
+    background: black;
+    border: 1px red;
+    color: white;   
+    font-family: "Helvetica";
+    border-radius: 5px;
+    position: absolute;
+    top: 470;
+    left: 602.5px;
+    font-weight: bold;
+
+}
+
+
